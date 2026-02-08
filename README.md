@@ -1,7 +1,7 @@
 # wirshark images :
 # Part 1: Capturing HTTP Traffic
 #--->Task 1: Start Wireshark and capture packets.
-![Task1](CS471images/Lab1/part1/Task1.png)
+![Task1](CS471 images/Lab1/part1/Task1.png)
 #--->Task 2: Filter HTTP packets and analyze them
 ![Task2](CS471images/Lab1/part1/Task2.png)
 # Part 2: Analyzing TCP/IP Traffic
