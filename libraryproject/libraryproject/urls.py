@@ -15,8 +15,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
+#import apps.bookmodule.views # سيختفي الخط الأحمر بعد نقل المجلد
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('', apps.bookmodule.views.index),
+    # path('index2/<int:val1>/', apps.bookmodule.views.index2),# الربط بالصفحة الرئيسية [cite: 41]
+    path('books/', include('apps.bookmodule.urls')),
 ]
