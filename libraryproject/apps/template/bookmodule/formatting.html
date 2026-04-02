@@ -1,0 +1,21 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+
+{% block title %} Text Formatting Task {% endblock title %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+    <h1 id="format-header">Example of Formatting tags</h1>
+
+    <p><b>This text has subtext using b tag</b></p>
+    <p><strong>This text has subtext using strong tag</strong></p>
+    <p><i>This text has subtext using i tag</i></p>
+    <p><em>This text has subtext using em tag</em></p>
+    <p><small>This text has subtext using small tag</small></p>
+    <p><mark>This text has subtext using mark tag</mark></p>
+    <p><del>This text has subtext using del tag</del></p>
+    <p><ins>This text has subtext using ins tag</ins></p>
+    <p>This text has <sub>subscript</sub> and <sup>superscript</sup></p>
+
+{% endblock content %}
